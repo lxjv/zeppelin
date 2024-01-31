@@ -1,0 +1,35 @@
+@import url(https://fonts.bunny.net/css?family=albert-sans:400,700|ibm-plex-mono:400,700i);
+@import url(./reset.css);
+@import url(./func.css);
+
+$background: #fff8e7;
+$dark-background: #0D0C0B;
+$accent: #6768AA;
+
+$text: #0D0C0B;
+$dark-text: #fff8e7;
+
+$font-text: 'Albert Sans', Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+$font-monospace: 'IBM Plex Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+
+html {
+	background-color: $background;
+	color: $text;
+}
+
+body {
+	padding: 1em;
+	border-radius: 1em;
+	margin: 2em auto;
+	max-width: 90%;
+
+	font-family: $font-text;
+	font-size: 105%;
+	font-display: swap;
+}
+
+#content {
+	margin-top: 0.5em;
+	padding-left: 1em;
+	border-radius: 1em;
+}

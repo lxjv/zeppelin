@@ -5,4 +5,5 @@ permalink: /
 layout: base
 ---
 
-hello testaaa
+hello!
+This is a test
