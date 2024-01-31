@@ -11,5 +11,9 @@ Now, the wiki is the blog, and the blog is the wiki! and also my website.
 - Arcade Wise (https://arcadewise.me) - general structure
 - Robb Knight (https://rknight.me) - the omg.lol community's local eleventy wizard
 
+### Articles that helped me 
+
+- https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/#structuring-the-input-folder
+
 ## Ideas
 - finally using sass? (sorry tailwind, but i like writing my own CSS xD)
