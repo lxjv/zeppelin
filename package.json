@@ -1,0 +1,16 @@
+{
+  "name": "zeppelin",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "luxon": "^3.4.4"
+  }
+}

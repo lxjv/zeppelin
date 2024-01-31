@@ -1,0 +1,7 @@
+node_modules
+public
+
+src/posts/.obsidian
+src/posts/drafts
+
+**/.DS_Store
