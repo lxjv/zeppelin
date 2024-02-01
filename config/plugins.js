@@ -1,5 +1,4 @@
 const pluginRSS = require("@11ty/eleventy-plugin-rss");
-const { DateTime } = require("luxon");
 const addRemoteData = require("@aaashur/eleventy-plugin-add-remote-data");
 
 module.exports = eleventyConfig => {

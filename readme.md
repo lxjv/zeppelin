@@ -8,7 +8,7 @@ Now, the wiki is the blog, and the blog is the wiki! and also my website.
 
 ## Inspirations
 
-- Arcade Wise (https://arcadewise.me) - general structure
+- Arcade Wise (https://arcades.agency) - general structure
 - Robb Knight (https://rknight.me) - the omg.lol community's local eleventy wizard
 
 ### Articles that helped me 
