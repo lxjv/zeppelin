@@ -43,11 +43,20 @@ body {
 	border: 2px solid;
 }
 
+#e-content {
+	img {
+		max-width: 39%;
+		height: auto;
+		margin-left: 3em;
+	}
+}
+
 #content-wrap {
 	padding-bottom: 1em;
 }
 
 .break hr {
+  
   border: none;
   border-top: 6px;
   overflow: visible;
