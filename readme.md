@@ -6,12 +6,28 @@ A unified solution to a problem I often have:
 
 Now, the wiki is the blog, and the blog is the wiki! and also my website.
 
+## Setup for development
+The only outside dependency is `just`
+
+```sh
+npm i
+
+# build
+just build
+
+# start server
+just start
+
+# clean-slate build and start server
+just purge
+```
+
 ## Inspirations
 
 - Arcade Wise (https://arcades.agency) - general structure
 - Robb Knight (https://rknight.me) - the omg.lol community's local eleventy wizard
 
-### Articles that helped me 
+### Articles that helped me
 
 - https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/#structuring-the-input-folder
 
