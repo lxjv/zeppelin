@@ -3,7 +3,7 @@
 @import url(./func.css);
 
 $background: #fff8e7;
-$dark-background: #0D0C0B;
+$dark-background: #100536;
 $accent: #6768AA;
 
 $text: #0D0C0B;
@@ -28,9 +28,54 @@ body {
 	font-display: swap;
 }
 
+/* .h-card {
+	margin-top: 1em;
+	border: #fff8e7 2px solid;
+	border-radius: 1em;
+	max-width: fit-content;
+	padding: 1em;
+} */
+
 #content {
 	margin-top: 0.5em;
 	padding-left: 1em;
 	border-radius: 1em;
 	border: 2px solid;
+}
+
+#content-wrap {
+	padding-bottom: 1em;
+}
+
+.break hr {
+  border: none;
+  border-top: 6px;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+blockquote {
+	margin-left: 13px;
+	padding-left: 8px;
+	border-left: 4px solid $accent;
+	border-spacing: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background: $dark-background;
+		color: $dark-text;
+	}
+
+	a[href] {
+		color: #fff8e7;
+		text-decoration: underline dotted #fff8e79c;
+
+	}
+
+	.literal-book-item__title {
+		color: #fff8e7 !important;
+	}
+
 }

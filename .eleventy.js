@@ -13,8 +13,8 @@ module.exports = function (eleventyConfig) {
 			input: 'src',
 			output: 'public',
 
-			includes: '_includes', // components
-			layouts: '_layouts' // layouts
+			includes: '_includes',
+			layouts: '_layouts'
 		}
 	};
 };

@@ -1,9 +1,12 @@
-node_modules
-public
+**/node_modules/**
 
-src/posts/.obsidian
-src/posts/drafts
+src/content/**/.obsidian
+src/content/**/drafts
 
 **/.DS_Store
 
 public/**
+
+.env
+.env.local
+

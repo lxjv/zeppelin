@@ -3,36 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link rel="stylesheet" href="/cdn/style/style.css" />
-	<link rel="icon" href="/cdn/image/tree.png">
-	<script defer src="https://kit.fontawesome.com/a4ad01e3e6.js" crossorigin="anonymous"></script>
-
-	<title>{{ title | safe }} | Laker Turner</title>
-	<meta property="description" content="{{ subtitle }}" />
+	<title>{{title}} | Laker Turner</title>
+	<link rel="stylesheet" href="/cdn/style/style.css">
 </head>
-
 <body>
 	<header>
 		<h1>
-			<a style="text-decoration: none;" href="/">Laker Turner</a>
-			<small style="size: 78%; font-weight: 400;">
-				<a href="/about">about</a>
-				<a href="/contact">contact</a>
-				<a href="/me">/me</a>
-				<a href="/subscribe"><i class="fa-solid fa-rss" style="color: orange;"></i></a>
-			</small>
+			<a class="ntd" href="/">Laker Turner</a>
 		</h1>
+
+		<nav>
+			<a href="/about">about</a>
+			<a href="/contact">contact</a>
+			<a href="/projects">projects</a>
+			<a href="/blog">blog</a>
+			<a href="/wiki">wiki</a>
+		</nav>
 	</header>
-
+	
 	<div id="content">
-		{{ content | safe }}
+		<div id="content-wrap">
+			{{content | safe}}
+		</div>
 	</div>
-
-	<footer style="margin-top: 0.5em;">
-		<!--{% for quote in footer | randomItem %}<blockquote>{{ quote }}</blockquote>{% endfor %}
-		<!--<script src="https://tinylytics.app/embed/xrwtvGaPyRKh1zjzZ9Be.js" defer></script>-->
-	</footer>
-
 </body>
 </html>
