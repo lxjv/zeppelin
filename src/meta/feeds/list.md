@@ -1,7 +1,7 @@
 ---
 title: Subscribe
 subtitle: hit the like button, fellow gamers
-permalink: /subscribe
+permalink: /subscribe/
 layout: page
 eleventyExcludeFromCollections: false
 ---
