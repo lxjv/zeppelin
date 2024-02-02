@@ -12,7 +12,7 @@ start:
 purge:
   echo "Purging build folder and starting Zeppelin!"
   rm -rf ./public
-  npx @11ty/eleventy --serve
+  ELEVENTY_ENV=dev npx @11ty/eleventy --serve
 
 test:
   echo "Now testing Zeppelin!"

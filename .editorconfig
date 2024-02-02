@@ -9,5 +9,8 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.{css,scss}]
+[*.{css,scss,json}]
+indent_size = 2
+
+["justfile"]
 indent_size = 2

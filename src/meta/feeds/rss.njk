@@ -1,9 +1,8 @@
 ---
 # RSS FEED - RSS 1.1
-permalink: feed.xml
+permalink: /feed.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="/cdn/style/rss.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="{{ metadata.url }}" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ metadata.title }}</title>
@@ -11,7 +10,7 @@ permalink: feed.xml
     <atom:link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self" type="application/rss+xml" />
     <description>{{ metadata.subtitle }}</description>
     <language>{{ metadata.language }}</language>
-    {%- for post in collections.post | reverse %}
+    {%- for post in collections.posts | reverse %}
     {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
     <item>
       <title>{{ post.data.title }}</title>

@@ -12,6 +12,7 @@
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@aaashur/eleventy-plugin-add-remote-data": "^1.0.0",
+    "dotenv": "^16.4.1",
     "luxon": "^3.4.4",
     "sass": "^1.70.0"
   },

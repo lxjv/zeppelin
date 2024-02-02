@@ -2,6 +2,8 @@
 title: Subscribe
 subtitle: hit the like button, fellow gamers
 permalink: /subscribe
+layout: page
+eleventyExcludeFromCollections: false
 ---
 
 - [RSS feed](/feed.xml)

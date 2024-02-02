@@ -4,8 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{title}} | Laker Turner</title>
-	
+
 	<link rel="stylesheet" href="/cdn/style/style.css">
+	<script src="https://kit.fontawesome.com/a4ad01e3e6.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header>
@@ -19,6 +20,7 @@
 			<a href="/projects">projects</a>
 			<a href="/blog">blog</a>
 			<a href="">wiki (under construction)</a>
+			<a href="/subscribe"><i class="fa-solid fa-rss" style="color: orange; margin: 0 5px;"></i>RSS</a>
 		</nav>
 	</header>
 
@@ -27,5 +29,11 @@
 			{{content | safe}}
 		</div>
 	</div>
+
+	<footer>
+		{% if env.env == 'prod' %}
+
+		{% endif %}
+	</footer>
 </body>
 </html>
