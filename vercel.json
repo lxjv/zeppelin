@@ -1,0 +1,44 @@
+{
+	"trailingSlash": false,
+	"redirects": [
+		{ "source": "/p/:path", "destination": "/blog/:path"},
+		{ "source": "/app-defaults", "destination": "/blog/app-defaults"},
+		{ "source": "/out", "destination": "/blog/out"},
+		{ "source": "/2023", "destination": "/blog/2023"},
+
+		{ "source": "/pronouns", "destination": "https://name.pn/laker-turner"},
+		{ "source": "/@la", "destination": "https://social.lol/@la"},
+		{ "source": "/git/:path", "destination": "https://github.com/lxjv/:path"},
+		{ "source": "/discord", "destination": "https://discord.gg/mcpsEvwsd4"}
+	],
+	
+	"headers": [
+		{
+			"source": "atom.xml",
+			"headers": [
+				{
+					"key": "Content-Type",
+					"value": "application/atom+xml"
+				}
+			]
+		},
+		{
+			"source": "feed.xml",
+			"headers": [
+				{
+					"key": "Content-Type",
+					"value": "application/rss+xml"
+				}
+			]
+		},
+		{
+			"source": "feed.json",
+			"headers": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			]
+		}
+	]
+}

@@ -1,7 +1,10 @@
 ---
 title: Blog
 subtitle: Welcome to my blog!
+permalink: /blog/index.html
+layout: page
 ---
+
 > {{subtitle}}
 
 {% for post in collections.posts reversed %}

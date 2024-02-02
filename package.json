@@ -14,5 +14,8 @@
     "@aaashur/eleventy-plugin-add-remote-data": "^1.0.0",
     "luxon": "^3.4.4",
     "sass": "^1.70.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0"
   }
 }

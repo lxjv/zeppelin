@@ -1,3 +1,4 @@
 {
-	"permalink": "/projects/{{page.fileSlug}}"
+	"permalink": "/prj/{{page.fileSlug}}",
+	"tags": "prj"
 }
