@@ -10,10 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@11ty/eleventy": "2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@aaashur/eleventy-plugin-add-remote-data": "^1.0.0",
     "dotenv": "^16.4.1",
     "luxon": "^3.4.4",
+    "markdown-it-footnote": "^4.0.0",
+    "sanitize-html": "^2.11.0",
     "sass": "^1.70.0"
   },
   "devDependencies": {

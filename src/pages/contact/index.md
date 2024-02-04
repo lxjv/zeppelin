@@ -1,5 +1,6 @@
 ---
 title: Contact
+permalink: /contact
 ---
 
 > Please read [my greeting](/greeting) before contacting me! Thank you in advance.

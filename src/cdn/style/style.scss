@@ -12,13 +12,17 @@ $dark-text: #fff8e7;
 $font-text: 'Albert Sans', Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 $font-monospace: 'IBM Plex Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
+:root {
+	color-scheme: dark light;
+}
+
 html {
 	background-color: $background;
 	color: $text;
 }
 
 body {
-	padding: 1em;
+	padding: 0 1em;
 	border-radius: 1em;
 	margin: 2em auto;
 	max-width: 90%;
@@ -41,12 +45,13 @@ body {
 	padding-left: 1em;
 	border-radius: 1em;
 	border: 2px solid;
+	max-width: fit-content;
+	padding-right: 1em;
 }
 
 #e-content {
 	img {
-		max-width: 39%;
-		height: auto;
+		max-width: 33%;
 		margin-left: 3em;
 	}
 }
@@ -56,7 +61,6 @@ body {
 }
 
 .break hr {
-  
   border: none;
   border-top: 6px;
   overflow: visible;
