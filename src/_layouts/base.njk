@@ -12,9 +12,7 @@
 	</head>
 
 	<body>
-
 		<header>
-
 			<h1>
 				<a class="ntd" href="/">Laker Turner</a>
 			</h1>
@@ -41,12 +39,10 @@
 
 		<footer>
 			{% include "quotes.njk" %}
+			{% include "webrings.njk" %}
 
-			<!-- todo add analytics -->
 			{% if env.env == 'prod' %}
-			{% endif %}
-
-			{% if env.env == dev %}
+				<script src="https://tinylytics.app/embed/xrwtvGaPyRKh1zjzZ9Be.js" defer></script>
 			{% endif %}
 		</footer>
 

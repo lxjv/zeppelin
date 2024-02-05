@@ -7,9 +7,28 @@ permalink: /feed.xml
   <channel>
     <title>{{ metadata.title }}</title>
     <link>{{ metadata.url }}</link>
-    <atom:link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self" type="application/rss+xml" />
+
+    <atom:link href="{{ permalink | absoluteUrl(meta.url) }}" rel="self" type="application/rss+xml" />
     <description>{{ metadata.subtitle }}</description>
     <language>{{ metadata.language }}</language>
+
+	<copyright>Copyright 2024, {{author.name}}</copyright>
+    <managingEditor>{{author.email}} ({{author.name}})</managingEditor>
+    <webMaster>{{author.email}} ({{author.name}})</webMaster>
+
+    <pubDate>{{ collections.posts.slice(-1)[0].date | dateToRfc822 }}</pubDate>
+    <lastBuildDate>{{ lastBuildDate }}</lastBuildDate>
+
+    <category>Blog</category>
+    <generator>{{ eleventy.generator }}</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+
+	<image>
+      <url>https://laker.tech/cdn/image/hat.jpg</url>
+      <title>Laker Turner's blog</title>
+      <link>https://blog.davidmoll.net</link>
+    </image>
+
     {%- for post in collections.posts | reverse %}
     {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
     <item>
@@ -17,7 +36,7 @@ permalink: /feed.xml
       <link>{{ absolutePostUrl }}</link>
       <description>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</description>
       <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
-      <dc:creator>{{ metadata.author.name }}</dc:creator>
+      <author>{{ author.url }} ({{ author.name }})</author>
       <guid>{{ absolutePostUrl }}</guid>
     </item>
     {%- endfor %}

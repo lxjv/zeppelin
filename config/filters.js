@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const sanitizeHTML = require('sanitize-html')
 
 module.exports = eleventyConfig => {
 
@@ -21,7 +22,9 @@ module.exports = eleventyConfig => {
 		return DateTime.fromJSDate(dateObj).toISO(dateObj);
 	});
 
-	const sanitizeHTML = require('sanitize-html')
+	// no content? no problem!
+
+	
 
 	function getWebmentionsForUrl(webmentions, url) {
 		const allowedTypes = ['mention-of', 'in-reply-to']

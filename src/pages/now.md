@@ -1,34 +1,25 @@
 ---
-title: "/now"
+title: "Laker, Now"
 subtitle: "Here's what Laker's doing now! (if she remembers to update it)"
-date: 2023-12-11
+date: 2024-02-05
 ---
-
-> This is a [/now page](https://sive.rs/nowff), and [you should make one](https://nownownow.com/about), too.
 
 Last updated: {{page.date | datePretty}}
 
 <script defer src="https://status.lol/laker.js?time&link&fluent&pretty"></script>
 
 ### 💜 Overview
-Spending less time on the internet, or at least trying to.
-
-Fed up with school. Luckily college visits start soon!
-
-Outside of school, I'm doing better!
-
-- Current hyperfixations: Stationary (esp. Field Notes), Stenography, this site.
+- Current hyperfixations: The new version of this site. (coming soon™)
 
 ### 🎧 Music
 [last.fm profile](https://last.fm/user/lxjv) <script src="https://recentfm.rknight.me/now.js?u=lxjv"></script>
 
-I can't really describe my music taste right now.
+Listening to a lot of Hozier, Radiohead and Jockstrap at the moment.
 
 ### 📚 Books
-According to [literal.club/@laker](https://literal.club/laker), I've been reading:
-
-<div id="literal-widget" handle="laker" status="IS_READING" layout="list"></div>
-<script defer src="https://literal.club/js/widget.js"></script>
+I bought a Kindle! I've been tracking my reading over on [doevery.day](https://doevery.day).
 
 ### 🎮 📺 🎥 Other media
-Playing a lot of *Peggle* right now.
+not much to talk about here. i watched the new series of *Queer Eye* in 2 sittings.
+
+> This is a [/now page](https://sive.rs/nowff), and [you should make one](https://nownownow.com/about), too.

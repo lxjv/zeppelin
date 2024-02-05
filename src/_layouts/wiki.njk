@@ -3,9 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>laWiki - {{title}}</title>
 </head>
 <body>
-	
+	<div id="wiki-bar">
+		<h1>laWiki > {{title}}</h1>
+	</div>
+
+	<div id="wiki-nav">
+		<!-- todo lmao -->
+	</div>
+
+	<div id="wiki-content">
+		{{content | safe}}
+	</div>
 </body>
 </html>

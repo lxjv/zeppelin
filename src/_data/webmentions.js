@@ -1,18 +1,10 @@
-const API_ORIGIN = 'https://webmention.io/api/mentions.jf2'
+const { defaults } = require("@chrisburnell/eleventy-cache-webmentions")
 
-module.exports = async function () {
-	const domain = 'laker.tech'
-	const token = process.env.WEBMENTION_IO_TOKEN
-	const url = `${API_ORIGIN}?domain=${domain}&token=${token}`
+// Load .env variables with dotenv
+require("dotenv").config()
 
-	try {
-		const response = await fetch(url)
-		if (response.ok) {
-			const feed = await response.json()
-			return feed
-		}
-	} catch (err) {
-		console.error(err)
-		return null
-	}
-}
+module.exports = Object.assign(defaults, {
+	domain: "https://laker.tech",
+	feed: `https://webmention.io/api/mentions.jf2?domain=laker.tech&token=${process.env.WEBMENTION_IO_TOKEN}&per-page=9001`,
+	key: "children",
+})

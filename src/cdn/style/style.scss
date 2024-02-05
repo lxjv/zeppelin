@@ -1,6 +1,7 @@
 @import url(https://fonts.bunny.net/css?family=albert-sans:400,700|ibm-plex-mono:400,700i);
 @import url(./reset.css);
 @import url(./func.css);
+@import url(status.scss);
 
 $background: #fff8e7;
 $dark-background: #100536;
@@ -11,10 +12,6 @@ $dark-text: #fff8e7;
 
 $font-text: 'Albert Sans', Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 $font-monospace: 'IBM Plex Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-
-:root {
-	color-scheme: dark light;
-}
 
 html {
 	background-color: $background;
@@ -49,20 +46,13 @@ body {
 	padding-right: 1em;
 }
 
-#e-content {
-	img {
-		max-width: 33%;
-		margin-left: 3em;
-	}
-}
-
 #content-wrap {
 	padding-bottom: 1em;
 }
 
-.break hr {
+hr {
   border: none;
-  border-top: 6px;
+  border-top: 6px solid $text;
   overflow: visible;
   text-align: center;
   height: 5px;
@@ -75,10 +65,20 @@ blockquote {
 	border-spacing: 5px;
 }
 
+#webrings {
+	margin-top: 1em;
+	margin-left: 0.69em;
+
+}
+
 @media (prefers-color-scheme: dark) {
 	html {
 		background: $dark-background;
 		color: $dark-text;
+	}
+
+	hr {
+		border-top: 6px $dark-text;
 	}
 
 	a[href] {
