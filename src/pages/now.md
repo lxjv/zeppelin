@@ -4,9 +4,7 @@ subtitle: "Here's what Laker's doing now! (if she remembers to update it)"
 date: 2024-02-05
 ---
 
-Last updated: {{page.date | datePretty}}
-
-<script defer src="https://status.lol/laker.js?time&link&fluent&pretty"></script>
+<script defer src="https://status.lol/laker.js?time&link&fluent"></script>
 
 ### 💜 Overview
 - Current hyperfixations: The new version of this site. (coming soon™)

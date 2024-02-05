@@ -1,6 +1,6 @@
 ---
 title: About
-subtitle: Things about Laker and this site
+subtitle: Mostly everything to know about Laker!
 ---
 
 Hi! I'm Laker. I don't like talking about myself. This is going to be fun.
@@ -20,6 +20,6 @@ laker.tech is made with [Eleventy](https://11ty.dev), and deployed using [Vercel
 
 Everything was written by hand, using either Visual Studio Code or Neovim on either a MacBook Air, or my desktop.
 
-The font you see everywhere is **Albert Sans** and code blocks use `IBM Plex Mono`. 
+The font you see everywhere is **Albert Sans** and code blocks use `IBM Plex Mono`.
 
 The little tree guy in the favicon was drawn by [Momo](https://heyheymomo.com).

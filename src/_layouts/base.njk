@@ -12,6 +12,13 @@
 	</head>
 
 	<body>
+		{% if env.env == 'prod' %}
+
+			<div id="welcome">
+				<p>Hi! Welcome to the new version of laker.tech. It might be broken right now. Be warned.</p>
+			</div>
+
+		{% endif %}
 		<header>
 			<h1>
 				<a class="ntd" href="/">Laker Turner</a>
@@ -26,7 +33,7 @@
 				<a href="/blog">blog</a>
 				<a href="">wiki (under construction)</a>
 
-				<a href="/subscribe"><i class="fa-solid fa-rss" style="color: orange; margin: 0 5px;"></i>RSS</a>
+				<a href="/subscribe"><i class="fa-solid fa-rss" style="color: orange; margin: 0 5px;"></i>feeds</a>
 			</nav>
 
 		</header>

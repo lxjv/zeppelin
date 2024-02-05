@@ -22,10 +22,6 @@ module.exports = eleventyConfig => {
 		return DateTime.fromJSDate(dateObj).toISO(dateObj);
 	});
 
-	// no content? no problem!
-
-	
-
 	function getWebmentionsForUrl(webmentions, url) {
 		const allowedTypes = ['mention-of', 'in-reply-to']
 

@@ -2,5 +2,11 @@
 layout: base.njk
 ---
 
-<p><h2>{{title | safe}}</h2><blockquote>{{subtitle | safe}}</blockquote></p>
-<article>{{content | safe}}</article>
+<p>
+	<h2>{{title | safe}} <small>Last updated {{page.date | datePretty}}</small></h2>
+	<blockquote>{{subtitle | safe}}</blockquote>
+</p>
+
+<article>
+	{{content | safe}}
+</article>

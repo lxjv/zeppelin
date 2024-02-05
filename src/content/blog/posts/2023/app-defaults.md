@@ -13,7 +13,7 @@ I first put this up on [txt.laker.tech](https://txt.laker.tech/defaults) while t
 ✅ To-Do: Reminders.app
 📷 iPhone Photo Shooting: Camera.app
 🟦 Photo Management: Photos.app
-📆 Calendar: Calendar.app
+📆 Calendar: Calendar.app (trying notion calendar and amie)
 📁 Cloud File Storage: iCloud
 📖 RSS: Reeder
 🙍🏻‍♂️ Contacts: Contacts.app

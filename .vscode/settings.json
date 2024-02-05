@@ -1,13 +1,15 @@
 {
 	"files.exclude": {
-		"**/node_modules": true,
-		"public": true,
-		"**/.git": true,
-		"**/.svn": true,
-		"**/.hg": true,
-		"**/CVS": true,
+		".cache": true,
 		"**/.DS_Store": true,
-		"**/Thumbs.db": true
+		"**/.git": true,
+		"**/.hg": true,
+		"**/.obsidian": true,
+		"**/.svn": true,
+		"**/CVS": true,
+		"**/node_modules": true,
+		"**/Thumbs.db": true,
+		"public": true
 	}
 }
 
