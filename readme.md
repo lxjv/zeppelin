@@ -7,7 +7,7 @@ A unified solution to a problem I often have:
 Now, the wiki is the blog, and the blog is the wiki! and also my website.
 
 ## Setup for development
-The only outside dependency is `just`
+The only 2 outside dependencies are `just` and `gum` (only for CLI)
 
 ```sh
 npm i
@@ -28,7 +28,7 @@ just purge
 - Robb Knight (https://rknight.me) - the omg.lol community's local eleventy wizard
 
 ### Articles that helped me
-
+- https://11tybundle.dev/
 - https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/#structuring-the-input-folder
 
 ## Ideas

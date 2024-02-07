@@ -1,24 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>{{title}} | Laker Turner</title>
-
-		<link rel="stylesheet" href="/cdn/style/style.css">
-		<script src="https://kit.fontawesome.com/a4ad01e3e6.js" crossorigin="anonymous"></script>
-		{% include "head.njk" %}
-	</head>
+	{% include "head.njk" %}
 
 	<body>
-		{% if env.env == 'prod' %}
-
-			<div id="welcome">
-				<p>Hi! Welcome to the new version of laker.tech. It might be broken right now. Be warned.</p>
-			</div>
-
-		{% endif %}
 		<header>
 			<h1>
 				<a class="ntd" href="/">Laker Turner</a>
@@ -31,9 +16,7 @@
 				<br>
 				<a href="/projects">projects</a>
 				<a href="/blog">blog</a>
-				<a href="">wiki (under construction)</a>
-
-				<a href="/subscribe"><i class="fa-solid fa-rss" style="color: orange; margin: 0 5px;"></i>feeds</a>
+				<a href="/subscribe"><i class="fa-solid fa-rss" style="color: #DC784F;"></i></a>
 			</nav>
 
 		</header>

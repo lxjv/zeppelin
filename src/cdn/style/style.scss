@@ -1,14 +1,17 @@
 @import url(https://fonts.bunny.net/css?family=albert-sans:400,700|ibm-plex-mono:400,700i);
 @import url(./reset.css);
 @import url(./func.css);
-@import url(status.scss);
 
 $background: #fff8e7;
 $dark-background: #100536;
-$accent: #6768AA;
 
 $text: #0D0C0B;
 $dark-text: #fff8e7;
+
+$accent: #6768AA;
+$orange: #DC784F;
+$blurple: #8797E0;
+$blue: #6FAACE;
 
 $font-text: 'Albert Sans', Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 $font-monospace: 'IBM Plex Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
@@ -31,16 +34,18 @@ body {
 
 small {
 	font-size: 69%;
-	font-weight: 420;
+	font-weight: 420; /* heh */
 }
 
-/* .h-card {
+/*
+.h-card {
 	margin-top: 1em;
 	border: #fff8e7 2px solid;
 	border-radius: 1em;
 	max-width: fit-content;
 	padding: 1em;
-} */
+}
+*/
 
 #content {
 	margin-top: 0.5em;
@@ -57,7 +62,8 @@ small {
 
 hr {
   border: none;
-  border-top: 6px solid $text;
+  border-top: 2px solid $text;
+	margin: 1em 0;
   overflow: visible;
   text-align: center;
   height: 5px;
@@ -72,18 +78,34 @@ blockquote {
 
 #webrings {
 	margin-top: 1em;
-	margin-left: 0.69em;
+	margin-left: 13px;
+}
 
+.post-tag {
+	color: $dark-text;
+	background-color: $accent;
+	padding: 5px 7px;
+	border-radius: 100px;
+	margin-right: 5px;
+}
+
+.statuslol_container {
+	margin: 1em 0 1em 0;
+	border: 1px solid $text;
+	padding: 1em;
+	border-radius: 1em;
+	max-width: fit-content;
 }
 
 @media (prefers-color-scheme: dark) {
+
 	html {
 		background: $dark-background;
 		color: $dark-text;
 	}
 
 	hr {
-		border-top: 6px $dark-text;
+		border-top: 1px solid $dark-text;
 	}
 
 	a[href] {
@@ -94,6 +116,10 @@ blockquote {
 
 	.literal-book-item__title {
 		color: #fff8e7 !important;
+	}
+
+	.statuslol_container {
+		border: 1px solid $dark-text;
 	}
 
 }

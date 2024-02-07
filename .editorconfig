@@ -12,5 +12,8 @@ insert_final_newline = true
 [*.{css,scss,json}]
 indent_size = 2
 
-["justfile"]
+[justfile]
 indent_size = 2
+
+[src/content/*.md]
+insert_final_newline = false
