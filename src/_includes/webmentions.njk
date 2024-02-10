@@ -1,3 +1,3 @@
-{% for webmention in webmentions %}
+{% for webmention in webmentions.children %}
 	{{ webmention.author.name }} sent this page a {{ webmention | getType }}
 {% endfor %}
