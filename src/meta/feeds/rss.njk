@@ -17,17 +17,11 @@ permalink: /feed.xml
     <webMaster>{{author.email}} ({{author.name}})</webMaster>
 
     <pubDate>{{ collections.posts.slice(-1)[0].date | dateToRfc822 }}</pubDate>
-    <lastBuildDate>{{ lastBuildDate }}</lastBuildDate>
+    <lastBuildDate>{{ lastBuildDate | dateToRfc822 }}</lastBuildDate>
 
     <category>Blog</category>
     <generator>{{ eleventy.generator }}</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
-
-	<image>
-      <url>https://laker.tech/cdn/image/hat.jpg</url>
-      <title>Laker Turner's blog</title>
-      <link>https://blog.davidmoll.net</link>
-    </image>
 
     {%- for post in collections.posts | reverse %}
     {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
