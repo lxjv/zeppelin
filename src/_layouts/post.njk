@@ -33,7 +33,7 @@ img {
 		</blockquote>
 
 		{% for tag in tags %}
-			<span class="post-tag"><a class="ntd" href="/blog/t/{{tag}}">#{{tag}}</a></span>
+			<span class="post-tag p-category"><a class="ntd" href="/blog/t/{{tag}}">#{{tag}}</a></span>
 		{% endfor %}
 	</p>
 	<hr>
@@ -41,17 +41,6 @@ img {
 
 	<div class="e-content">
 		{{content | safe}}
-	</div>
-
-	<div id="post-footer" class="nd">
-	<hr>
-
-		<h3>Footnotes</h3>
-
-		<br>
-
-		<h3>Webmentions</h3>
-			{% include "webmentions.njk" %}
 	</div>
 
 </article>
