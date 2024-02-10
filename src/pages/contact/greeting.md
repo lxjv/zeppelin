@@ -1,8 +1,10 @@
 ---
 title: Social Media Greeting
+subtitle: Words online
+date: 2024-02-10
 ---
 
-- As of {{page.date | datePretty}}, I'm 18 years of age. Take that as you will.
+- As of the date listed above, I'm 18 years of age. Take that as you will.
 
 - Most questions are allowed. They just have be in "good faith."
 (Good, honest intentions, even if producing unfortunate results.)

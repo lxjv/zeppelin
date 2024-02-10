@@ -1,5 +1,6 @@
 ---
 title: Projects
+subtitle: a quite bare projects page. shhhhh im not done
 permalink: /projects
 layout: page
 ---

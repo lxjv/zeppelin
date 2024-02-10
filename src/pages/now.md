@@ -12,8 +12,6 @@ date: 2024-02-05
 ### 🎧 Music
 [last.fm profile](https://last.fm/user/lxjv) <script src="https://recentfm.rknight.me/now.js?u=lxjv"></script>
 
-Listening to a lot of Hozier, Radiohead and Jockstrap at the moment.
-
 ### 📚 Books
 I bought a Kindle! I've been tracking my reading over on [doevery.day](https://doevery.day).
 
