@@ -1,6 +1,6 @@
 const { defaults } = require("@chrisburnell/eleventy-cache-webmentions")
 
-// Load .env variables with dotenv
+// Load .env variables with dotenv!
 require("dotenv").config()
 
 module.exports = Object.assign(defaults, {
