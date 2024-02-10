@@ -11,6 +11,7 @@ img {
 </style>
 
 <article class="h-entry">
+
 	<div class="post-meta">
 
 		<span class="h-card nd">
@@ -21,20 +22,21 @@ img {
 	<h2>
 		<span class="p-name">{{title | safe}}</span>
 		<small>
-			<a class="u-url" href="https://{{metadata.domain}}{{page.url}}">
-				<time class="dt-published" datetime="{{page.date | dateISO}}">{{page.date | datePretty}}</time>
-			</a>
+			{% for tag in tags %}
+			<span class="post-tag p-category"><a class="ntd" href="/blog/t/{{tag}}">#{{tag}}</a></span>
+			{% endfor %}
 		</small>
 	</h2>
-
+	<span>
+		<span>{{content | wordcount}} words</span>
+		<a class="u-url" href="https://{{metadata.domain}}{{page.url}}">
+			<time class="dt-published" datetime="{{page.date | dateISO}}">{{page.date | datePretty}}</time>
+		</a>
+	</span>
 	<p>
 		<blockquote class="p-summary" style="margin-bottom: 1em;">
 			{{subtitle | safe}}
 		</blockquote>
-
-		{% for tag in tags %}
-			<span class="post-tag p-category"><a class="ntd" href="/blog/t/{{tag}}">#{{tag}}</a></span>
-		{% endfor %}
 	</p>
 	<hr>
 	</div>

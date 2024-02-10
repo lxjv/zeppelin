@@ -10,8 +10,6 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(require('./config/dev.js'));
 
-	eleventyConfig.addPlugin(require('./config/webment_conf.js'));
-
 	return {
 		dir: { // directories for stuff woo
 			input: 'src',
