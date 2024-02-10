@@ -25,7 +25,7 @@ permalink: /feed.xml
       <link>{{ absolutePostUrl }}</link>
       <description>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</description>
       <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
-      <author>{{ author.url }} ({{ author.name }})</author>
+      <author>{{ author.email }} ({{ author.name }})</author>
       <guid>{{ absolutePostUrl }}</guid>
     </item>
     {%- endfor %}
