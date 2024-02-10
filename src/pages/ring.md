@@ -4,4 +4,4 @@ subtitle: A webring! for people! (that i know)
 date: 2024-02-06
 ---
 
-Webbed
+Webbedring (coming soon)
