@@ -1,20 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=albert-sans:400,700|ibm-plex-mono:400,700i);
-@import url(./reset.css);
-@import url(./func.css);
-
-$background: #fff8e7;
-$dark-background: #100536;
-
-$text: #0D0C0B;
-$dark-text: #fff8e7;
-
-$accent: #6768AA;
-$orange: #DC784F;
-$blurple: #8797E0;
-$blue: #6FAACE;
-
-$font-text: 'Albert Sans', Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
-$font-monospace: 'IBM Plex Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+@import 'base';
 
 html {
 	background-color: $background;
@@ -32,9 +16,9 @@ body {
 	font-display: swap;
 }
 
-small {
+small { /* heh */
 	font-size: 69%;
-	font-weight: 420; /* heh */
+	font-weight: 420;
 }
 
 /*
@@ -95,6 +79,10 @@ blockquote {
 	padding: 1em;
 	border-radius: 1em;
 	max-width: fit-content;
+}
+
+.profile-picture {
+	border: 2px solid #fff8e7;
 }
 
 @media (prefers-color-scheme: dark) {

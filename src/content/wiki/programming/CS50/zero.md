@@ -1,6 +1,5 @@
 ---
-website: https://cs50.harvard.edu/x/2023/notes/0/
-video: https://video.cs50.io/IDDmrzzB14M?screen=vm_vgY75qT4
+
 ---
 # Week 0 - Scratch
 
@@ -11,7 +10,7 @@ input -> ▢ -> output
 ### Counting (without portals)
 
 - unary: using your fingers
-- [[Binary|binary]]: 0101010101010 :3
+- [binary](/wiki/binary): 0101010101010 :3
 - decimal: 0-9
 
 *1 equals on, 0 equals off*

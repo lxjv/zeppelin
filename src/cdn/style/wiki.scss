@@ -2,10 +2,14 @@ body {
 	grid-template-columns: 1fr 3fr;
 }
 
-#wiki-nav {
-	grid-column: 2;
+#wiki {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 1fr 9fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
 }
 
-#wiki-content {
-	grid-column: 1;
-}
+#wiki-bar { grid-area: 1 / 2 / 2 / 3; }
+#wiki-nav { grid-area: 2 / 1 / 3 / 2; }
+#wiki-content { grid-area: 2 / 2 / 3 / 3; }
