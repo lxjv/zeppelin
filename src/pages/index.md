@@ -5,7 +5,7 @@ permalink: /
 layout: base
 ---
 
-<img src="/cdn/image/hat.jpg" alt="My hat." height=75 width=75></img>
+<img src="/cdn/image/hat.jpg" alt="My hat." height=75 width=75 class="profile-photo"></img>
 
 Hi! I'm Laker Turner. I'm an 18 year old student from the UK, writer, amateur programmer and leather jacket enthusiast.
 
