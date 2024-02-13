@@ -19,6 +19,31 @@ html {
 	color: $text;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid $text;
+	margin: 1em 0;
+  text-align: center;
+  height: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background: $dark-background;
+		color: $dark-text;
+	}
+
+	hr {
+		border-top: 1px solid $dark-text;
+	}
+
+	a[href] {
+		color: #fff8e7;
+		text-decoration: underline dotted #fff8e79c;
+
+	}
+}
+
 /* who needs tailwind /s */
 .ntd {
 	text-decoration: none !important;
