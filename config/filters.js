@@ -3,13 +3,18 @@ const sanitizeHTML = require('sanitize-html')
 
 module.exports = eleventyConfig => {
 
-	// /dev/random
+	// /dev/urandom
 	eleventyConfig.addFilter("randomItem", (arr) => {
 		arr.sort(() => {
 			return 0.5 - Math.random();
 		});
 
 		return arr.slice(0, 1);
+	});
+
+	// STOP! you've violated the law
+	eleventyConfig.addFilter("limit", function (arr, limit) {
+		return arr.slice(0, limit);
 	});
 
 	// Oct 16, 2005
@@ -22,26 +27,9 @@ module.exports = eleventyConfig => {
 		return DateTime.fromJSDate(dateObj).toISO(dateObj);
 	});
 
-	function getWebmentionsForUrl(webmentions, url) {
-		const allowedTypes = ['mention-of', 'in-reply-to']
-
-		const hasRequiredFields = entry => {
-			const { author, published, content } = entry
-			return author.name && published && content
-		}
-		const sanitize = entry => {
-			const { content } = entry
-			if (content['content-type'] === 'text/html') {
-				content.value = sanitizeHTML(content.value)
-			}
-			return entry
-		}
-
-		return webmentions
-			.filter(entry => entry['wm-target'] === url)
-			.filter(entry => allowedTypes.includes(entry['wm-property']))
-			.filter(hasRequiredFields)
-			.map(sanitize)
-	}
+	eleventyConfig.addFilter("removeCollection", function (collections, collectionName) {
+		// Filter out the collection with the given name
+		return collections.filter(collection => collection._collectionPath !== collectionName);
+	});
 
 }

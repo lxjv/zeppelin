@@ -1,22 +1,22 @@
 #!/usr/bin/env bash
 
-EDITOR="code"
+EDITOR="code" # to be removed soon probably
 POST_DIR="$HOME/dev/web/zeppelin/src/content/blog/posts"
 
 echo "zep v2.0.0"
 
-OPTION=$(gum choose "new" "edit" "stats" "quit") || echo "gum broke"
+OPTION=$(gum choose "new" "edit" "stats" "quit") || echo "gum broke or not installed"
 
 if [[ $OPTION == "new" ]]; then
     echo "Creating a new post"
 
-    POST_SLUG=$(gum input --placeholder "post slug") || echo "gum broke"
+    POST_SLUG=$(gum input --placeholder "post slug") || echo "gum broke or not installed"
 
     cp ./src/cdn/template/post.md "$POST_DIR"/drafts/"$POST_SLUG".md
 	$EDITOR "$POST_DIR"/drafts/"$POST_SLUG".md
 
 elif [[ $OPTION == "edit" ]]; then
-	EDIT_THIS=$(gum file $POST_DIR) || echo "gum broke"
+	EDIT_THIS=$(gum file $POST_DIR) || echo "gum broke or not installed"
 	$EDITOR $EDIT_THIS
 
 elif [[ $OPTION == "stats" ]]; then

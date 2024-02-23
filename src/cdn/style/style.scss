@@ -21,16 +21,6 @@ small { /* heh */
 	font-weight: 420;
 }
 
-/*
-.h-card {
-	margin-top: 1em;
-	border: #fff8e7 2px solid;
-	border-radius: 1em;
-	max-width: fit-content;
-	padding: 1em;
-}
-*/
-
 #content {
 	margin-top: 0.5em;
 	padding-left: 1em;
@@ -82,6 +72,12 @@ blockquote {
 
 .profile-picture {
 	border: 2px solid #fff8e7;
+	border-radius: 100%;
+	margin: 1em 0.5em;
+}
+
+.webring {
+	margin-right: 1em;
 }
 
 @media (prefers-color-scheme: dark) {

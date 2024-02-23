@@ -14,11 +14,6 @@ img {
 
 	<div class="post-meta">
 
-		<span class="h-card nd">
-			<a rel="author" href="https://laker.tech" class="p-author ntd">{{author.name}}</a>
-			<img src="{{author.photo}}" class="nd" style="vertical-align: middle;" alt="Laker's hat." height="16" width="16">
-		</span>
-
 	<h2>
 		<span class="p-name">{{title | safe}}</span>
 		<small>
@@ -38,15 +33,35 @@ img {
 			{{subtitle | safe}}
 		</blockquote>
 	</p>
-	<hr>
 	</div>
 
 	<div class="e-content">
 		{{content | safe}}
 	</div>
 
-	<div>
+	<hr>
+	<figure>
+  		<blockquote data-key="content"></blockquote>
+  		<figcaption>
+    <cite>
+      <a data-key="url">
+        <span data-key="username">@la</span>
+        @
+        <span data-key="hostname">social.lol</span>
+      </a>
+    </cite>
+    <dl>
+      <dt>Reposts</dt>
+      <dd data-key="reblogs_count"></dd>
+      <dt>Replies</dt>
+      <dd data-key="replies_count"></dd>
+      <dt>Favourites</dt>
+      <dd data-key="favourites_count"></dd>
+    </dl>
+  </figcaption>
+</figure>
+	<!--<div>
 		<button class="tinylytics_kudos"></button>
-	</div>
+	</div>-->
 
 </article>

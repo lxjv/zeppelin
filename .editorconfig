@@ -15,5 +15,5 @@ indent_size = 2
 [justfile]
 indent_size = 2
 
-[src/content/*.md]
+[*.md]
 insert_final_newline = false

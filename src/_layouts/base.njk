@@ -4,24 +4,8 @@
 	{% include "head.njk" %}
 
 	<body>
-		<div class="nd">
-			{% include "hcard.njk" %}
-		</div>
 
-		<header>
-			<h1>
-				<a class="ntd" href="/">Laker Turner</a>
-			</h1>
-
-			<nav>
-				<a href="/about">about</a>
-				<a href="/contact">contact</a>
-				<a href="/now">/now</a>
-				<a href="/blog">blog</a>
-				<a href="/subscribe"><i class="fa-solid fa-rss" style="color: #DC784F;"></i></a>
-			</nav>
-
-		</header>
+		{% include "header.njk" %}
 
 		<div id="content">
 			<div id="content-wrap">
@@ -29,14 +13,7 @@
 			</div>
 		</div>
 
-		<footer>
-			{% include "quotes.njk" %}
-			{% include "webrings.njk" %}
-
-			{% if env.env == 'prod' %}
-				<script src="https://tinylytics.app/embed/xrwtvGaPyRKh1zjzZ9Be.js" defer></script>
-			{% endif %}
-		</footer>
+		{% include "footer.njk" %}
 
 	</body>
 </html>

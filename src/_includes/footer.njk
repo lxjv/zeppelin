@@ -1,0 +1,9 @@
+<footer>
+	{% include "quotes.njk" %}
+	{% include "webrings.njk" %}
+
+	<!-- analytics -->
+	{% if env.env == 'prod' %}
+		<script src="https://tinylytics.app/embed/xrwtvGaPyRKh1zjzZ9Be.js" defer></script>
+	{% endif %}
+</footer>
