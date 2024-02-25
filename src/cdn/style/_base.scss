@@ -27,6 +27,10 @@ hr {
   height: 5px;
 }
 
+a[href] {
+	text-decoration: underline dotted $text;
+}
+
 @media (prefers-color-scheme: dark) {
 	html {
 		background: $dark-background;
@@ -38,7 +42,7 @@ hr {
 	}
 
 	a[href] {
-		color: #fff8e7;
+		//color: #fff8e7;
 		text-decoration: underline dotted #fff8e79c;
 
 	}

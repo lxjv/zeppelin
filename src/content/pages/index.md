@@ -5,7 +5,7 @@ permalink: /
 layout: base
 ---
 
-<span class="h-card" style="display: flex;">
+<span class="h-card">
 	<p>
 		Hi! I'm <a class="u-url ntd" rel="me" href="{{author.url}}">Laker Turner</a> (<a href="https://laker.tech/pronouns" class="u-pronouns">she/her</a>). <br>
 		<span class="p-note">{{author.bio}}</span>

@@ -1,18 +1,17 @@
 #!/usr/bin/env bash
 
-EDITOR="code" # to be removed soon probably
-POST_DIR="$HOME/dev/web/zeppelin/src/content/blog/posts"
+source .zepsettings # settings moved to seperate file
 
 echo "zep v2.0.0"
 
 OPTION=$(gum choose "new" "edit" "stats" "quit") || echo "gum broke or not installed"
 
 if [[ $OPTION == "new" ]]; then
-    echo "Creating a new post"
+	echo "Creating a new post"
 
-    POST_SLUG=$(gum input --placeholder "post slug") || echo "gum broke or not installed"
+	POST_SLUG=$(gum input --placeholder "post slug") || echo "gum broke or not installed"
 
-    cp ./src/cdn/template/post.md "$POST_DIR"/drafts/"$POST_SLUG".md
+	cp ./src/cdn/template/post.md "$POST_DIR"/drafts/"$POST_SLUG".md
 	$EDITOR "$POST_DIR"/drafts/"$POST_SLUG".md
 
 elif [[ $OPTION == "edit" ]]; then
@@ -20,10 +19,10 @@ elif [[ $OPTION == "edit" ]]; then
 	$EDITOR $EDIT_THIS
 
 elif [[ $OPTION == "stats" ]]; then
-    echo "zeppelin stats"
-    POST_COUNT=$(find "$POST_DIR"/**.md | wc -l | tr -d ' ')
+	echo "zeppelin stats"
+	POST_COUNT=$(find "$POST_DIR"/**.md | wc -l | tr -d ' ')
 	echo "There are $POST_COUNT posts!"
 
 else
-    exit
+	exit
 fi

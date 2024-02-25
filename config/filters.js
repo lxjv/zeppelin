@@ -27,9 +27,9 @@ module.exports = eleventyConfig => {
 		return DateTime.fromJSDate(dateObj).toISO(dateObj);
 	});
 
-	eleventyConfig.addFilter("removeCollection", function (collections, collectionName) {
-		// Filter out the collection with the given name
-		return collections.filter(collection => collection._collectionPath !== collectionName);
+	// remove collection when displaying blog post tags
+	eleventyConfig.addFilter("collectionRemove", (arr, remove) => {
+		let tags = arr.filter(item => item !== remove)
 	});
 
 }

@@ -17,17 +17,18 @@ img {
 	<h2>
 		<span class="p-name">{{title | safe}}</span>
 		<small>
+			<a class="u-url ntd" style="margin: 0 5px;" href="https://{{metadata.domain}}{{page.url}}">
+				<time class="dt-published" datetime="{{page.date | dateISO}}">{{page.date | datePretty}}</time>
+			</a>
+
+			<span style="margin: 0 5px;">{{content | wordcount}} words</span>
+
 			{% for tag in tags %}
-			<span class="post-tag p-category"><a class="ntd" href="/blog/t/{{tag}}">#{{tag}}</a></span>
+			<span class="p-category"><a class="ntd" href="/blog/t/{{tag}}">#{{tag}}</a></span>
 			{% endfor %}
+
 		</small>
 	</h2>
-	<span>
-		<span>{{content | wordcount}} words</span>
-		<a class="u-url" href="https://{{metadata.domain}}{{page.url}}">
-			<time class="dt-published" datetime="{{page.date | dateISO}}">{{page.date | datePretty}}</time>
-		</a>
-	</span>
 	<p>
 		<blockquote class="p-summary" style="margin-bottom: 1em;">
 			{{subtitle | safe}}
@@ -40,28 +41,6 @@ img {
 	</div>
 
 	<hr>
-	<figure>
-  		<blockquote data-key="content"></blockquote>
-  		<figcaption>
-    <cite>
-      <a data-key="url">
-        <span data-key="username">@la</span>
-        @
-        <span data-key="hostname">social.lol</span>
-      </a>
-    </cite>
-    <dl>
-      <dt>Reposts</dt>
-      <dd data-key="reblogs_count"></dd>
-      <dt>Replies</dt>
-      <dd data-key="replies_count"></dd>
-      <dt>Favourites</dt>
-      <dd data-key="favourites_count"></dd>
-    </dl>
-  </figcaption>
-</figure>
-	<!--<div>
-		<button class="tinylytics_kudos"></button>
-	</div>-->
+	<p>Want to comment on this post? <a href="mailto:hello+{{page.fileSlug}}@concorde.blog">Email me</a>!
 
 </article>
