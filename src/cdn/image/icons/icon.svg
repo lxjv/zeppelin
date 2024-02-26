@@ -34,8 +34,9 @@
      inkscape:current-layer="svg1" />
 
   <style>
+	.a { fill: #0D0C0B }
 	@media (prefers-color-scheme: dark) {
-    .a { fill: #fff8e7 }
+    	.a { fill: #fff8e7 }
 	}
   </style>
 

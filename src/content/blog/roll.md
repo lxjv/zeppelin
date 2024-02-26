@@ -2,6 +2,8 @@
 title: Blog/Podroll
 subtitle: What's in my beaker?
 date: 2024-02-13
+layout: page
+permalink: /blog/roll/index.html
 ---
 
 ### Blogroll

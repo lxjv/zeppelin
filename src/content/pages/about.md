@@ -14,11 +14,9 @@ I first came out as non-binary in 2018, and [later as a trans woman in 2022](/ou
 
 ### About laker.tech
 
-laker.tech is made with [Eleventy](https://11ty.dev), and deployed using [Vercel](https://vercel.com).
+laker.tech is made with [Eleventy](https://11ty.dev), and hosted using [Caddy](https://caddyserver.com) on my VPS, [Eclipse](https://eclipse.laker.tech)
 
-> I might start self-hosting it soon? No promises.
-
-Everything was written by hand, using either Visual Studio Code or Neovim on either a MacBook Air, or my desktop.
+Everything was written by hand, using either Visual Studio Code, Neovim or Emacs on either a MacBook Air, or my desktop (see [/uses](/uses)).
 
 The font you see everywhere is **Albert Sans** and code blocks use `IBM Plex Mono`.
 

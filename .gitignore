@@ -1,13 +1,20 @@
 **/node_modules/**
 
+# the writing basement is CLOSED
 src/content/**/.obsidian
 src/content/**/drafts
 
+# fuck you macOS
 **/.DS_Store
 
+# build artifacts
 public/**
 
+# no peeking
 .env
 .env.local
 
 .cache/
+
+# cli settings file
+.zepsettings

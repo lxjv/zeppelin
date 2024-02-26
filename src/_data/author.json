@@ -1,7 +1,8 @@
 {
   "name": "Laker Turner",
   "photo": "https://laker.tech/cdn/image/hat.jpg",
+	"photoalt": "A black baseball cap with Keith Haring's 'Untitled, 1982' embroidered on it.",
   "url": "https://laker.tech",
   "email": "la@laker.gay",
-  "note": "I'm an 18 year old student from the UK, writer, amateur programmer and leather jacket enthusiast."
+  "bio": "I'm an 18 year old student from the UK, writer, amateur programmer and leather jacket enthusiast."
 }

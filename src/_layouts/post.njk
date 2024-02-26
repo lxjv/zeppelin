@@ -14,39 +14,33 @@ img {
 
 	<div class="post-meta">
 
-		<span class="h-card nd">
-			<a rel="author" href="https://laker.tech" class="p-author ntd">{{author.name}}</a>
-			<img src="{{author.photo}}" class="nd" style="vertical-align: middle;" alt="Laker's hat." height="16" width="16">
-		</span>
-
 	<h2>
 		<span class="p-name">{{title | safe}}</span>
 		<small>
+			<a class="u-url ntd" style="margin: 0 5px;" href="https://{{metadata.domain}}{{page.url}}">
+				<time class="dt-published" datetime="{{page.date | dateISO}}">{{page.date | datePretty}}</time>
+			</a>
+
+			<span style="margin: 0 5px;">{{content | wordcount}} words</span>
+
 			{% for tag in tags %}
-			<span class="post-tag p-category"><a class="ntd" href="/blog/t/{{tag}}">#{{tag}}</a></span>
+			<span class="p-category"><a class="ntd" href="/blog/t/{{tag}}">#{{tag}}</a></span>
 			{% endfor %}
+
 		</small>
 	</h2>
-	<span>
-		<span>{{content | wordcount}} words</span>
-		<a class="u-url" href="https://{{metadata.domain}}{{page.url}}">
-			<time class="dt-published" datetime="{{page.date | dateISO}}">{{page.date | datePretty}}</time>
-		</a>
-	</span>
 	<p>
 		<blockquote class="p-summary" style="margin-bottom: 1em;">
 			{{subtitle | safe}}
 		</blockquote>
 	</p>
-	<hr>
 	</div>
 
 	<div class="e-content">
 		{{content | safe}}
 	</div>
 
-	<div>
-		<button class="tinylytics_kudos"></button>
-	</div>
+	<hr>
+	<p>Want to comment on this post? <a href="mailto:hello+{{page.fileSlug}}@concorde.blog">Email me</a>!
 
 </article>

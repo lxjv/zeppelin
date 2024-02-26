@@ -1,5 +1,6 @@
 ---
 title: Slash Save!
+subtitle: lay ker dot tec h slash save
 ---
 
 This is a list of all of my affiliate links, referral codes and the like!
