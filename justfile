@@ -28,4 +28,5 @@ install-cli:
 debug:
   DEBUG=Eleventy* npx @11ty/eleventy --dryrun
 
-#todo ci:
+deploy:
+	ssh eclipse /root/deploy.sh
