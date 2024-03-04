@@ -29,4 +29,4 @@ debug:
   DEBUG=Eleventy* npx @11ty/eleventy --dryrun
 
 deploy:
-	ssh eclipse /root/deploy.sh
+	ssh eclipse /opt/sites/laker.tech/deploy.sh
