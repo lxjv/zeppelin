@@ -4,7 +4,7 @@ subtitle: How to contact me!
 permalink: /contact/index.html
 ---
 
-Please read [my greeting](/greeting) before contacting me! Thank you in advance.
+Please read [my greeting](/contact/greeting) before contacting me! Thank you in advance.
 
 - My personal email is [la@laker.gay](mailto:la@laker.gay).
 - For any work purposes, please email [laker@laker.tech](mailto:laker@laker.tech)

@@ -6,7 +6,7 @@ subtitle: All the social media (mostly)
 I'm trying to use social media less right now, so i might not see your replies / messages. <br>
 If you want to talk, [email me](/contact). Thanks :D
 
-Please read [my social media greeting](/greeting) before contacting me! Thank you in advance.
+Please read [my social media greeting](/contact/greeting) before contacting me! Thank you in advance.
 
 ### Active
 - Fediverse: [@la@social.lol](https://social.lol/@la) - This is my favourite social media platform / community. <3

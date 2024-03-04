@@ -16,4 +16,4 @@ date: 2024-02-10
 - I don't mind jokes at my expense, I'll probably find them funny. <br>
 Please don't respond on my behalf about them, as it causes a mess that I dont have the energy to clean up.
 
-- In general, [Dont be an asshole.](https://asshole.fyi), [Don't ask to ask.](https://dontasktoask.com) and [Feel free to fuck off](https://fftfo.laker.tech).
+- In general, [Dont be an asshole](https://asshole.fyi), [Don't ask to ask](https://dontasktoask.com) and [Feel free to fuck off](https://fuckoff.laker.tech).
