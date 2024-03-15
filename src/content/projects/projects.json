@@ -1,4 +1,5 @@
 {
-	"permalink": "/prj/{{page.fileSlug}}",
-	"tags": "prj"
+	"permalink": "/prj/{{page.fileSlug}}/index.html",
+	"tags": "prj",
+	"layout": "page"
 }

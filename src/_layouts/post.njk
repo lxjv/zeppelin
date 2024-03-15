@@ -2,34 +2,26 @@
 layout: base
 ---
 
-<style>
-img {
-		max-width: 50%;
-		height: auto;
-		margin-left: 3em;
-	}
-</style>
-
 <article class="h-entry">
 
 	<div class="post-meta">
 
 	<h2>
 		<span class="p-name">{{title | safe}}</span>
+
 		<small>
-			<a class="u-url ntd" style="margin: 0 5px;" href="https://{{metadata.domain}}{{page.url}}">
+			<a class="u-url ntd" href="https://{{metadata.domain}}{{page.url}}">
 				<time class="dt-published" datetime="{{page.date | dateISO}}">{{page.date | datePretty}}</time>
 			</a>
-
-			<span style="margin: 0 5px;">{{content | wordcount}} words</span>
-
-			{% for tag in tags %}
-			<span class="p-category"><a class="ntd" href="/blog/t/{{tag}}">#{{tag}}</a></span>
-			{% endfor %}
-
+			<span>{{content | wordcount}} words</span>
 		</small>
+
 	</h2>
 	<p>
+		{% for tag in tags %}
+			<span class="p-category"><a class="ntd" href="/blog/t/{{tag}}">#{{tag}}</a></span>
+		{% endfor %}
+
 		<blockquote class="p-summary" style="margin-bottom: 1em;">
 			{{subtitle | safe}}
 		</blockquote>
@@ -37,6 +29,8 @@ img {
 	</div>
 
 	<div class="e-content">
+		<img src="/cdn/image/posts/{{page.fileSlug}}/{{image.src}}" alt="{{image.alt}}" class="post=header-img">
+		<caption>{{image.alt}}</caption>
 		{{content | safe}}
 	</div>
 
