@@ -7,8 +7,6 @@ eleventyExcludeFromCollections: true
 tags: ["meta", "posts", "fuck you"]
 ---
 
-<textarea>wahoo</textarea>
-
 <details>
 <summary>Every Markdown element</summary>
 
