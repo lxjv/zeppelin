@@ -15,7 +15,7 @@ laker.tech is made with [Eleventy](https://11ty.dev), and hosted using [Caddy](h
 
 Everything was written by hand, using Neovim on either a MacBook Air, or my desktop (see [/uses](/uses)).
 
-The font you see everywhere is **Albert Sans** and code blocks use `IBM Plex Mono`.dd
+The font you see everywhere is **Albert Sans** and code blocks use `IBM Plex Mono`.
 
 The little tree guy in the favicon was drawn by [Momo](https://heyheymomo.com).
 
