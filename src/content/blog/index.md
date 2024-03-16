@@ -6,6 +6,6 @@ permalink: /blog/index.html
 layout: page
 ---
 
-[blogroll!](/blog/roll)
+You can look at my [blogroll](/blog/roll) if you'd like.
 
-{% include "postlist.njk" %}
+{% include "partials/posts/simple.njk" %}
