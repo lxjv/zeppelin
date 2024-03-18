@@ -18,5 +18,3 @@ Everything was written by hand, using Neovim on either a MacBook Air, or my desk
 The font you see everywhere is **Albert Sans** and code blocks use `IBM Plex Mono`.
 
 The little tree guy in the favicon was drawn by [Momo](https://heyheymomo.com).
-
-I've decided to try out using analytics for a bit, using [Tinylytics](https://tinylytics.app).
