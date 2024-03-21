@@ -10,16 +10,19 @@ layout: base
 		Hi! I'm <a class="u-url ntd" rel="me" href="{{author.url}}">Laker Turner</a> (<a href="https://laker.tech/pronouns" class="u-pronouns">she/her</a>). <br>
 		<span class="p-note">{{author.bio}}</span>
 	</p>
-	<img class="u-photo profile-picture" height=80 width=80 src="{{author.photo}}" alt="{{author.photoalt}}">
+	<img class="u-photo profile-picture" height=95 width=95 src="{{author.photo.src}}" alt="{{author.photo.alt}}">
 </span>
 
 <p>
 	I'm learning a mix of Rust, C, JS, and Python right now, but I'm probably going to stick with Rust. <br>
 	On the web side, I like Eleventy (it's what builds this site!). <br> <br>
-	When I'm not knee-deep in my terminal, I like making music, taking photographs and reading
-	<strong>Hitch-Hiker's Guide to the Galaxy</strong> for the 5th time.
+	When I'm not knee-deep in my terminal, I like making music, taking photographs <br>
+	and reading <strong>Hitch-Hiker's Guide to the Galaxy</strong> for the 5th time.
 </p>
 
 <p>Feel free to walk around and see what's going on, here are my latest blog posts!</p>
 
 {% include "partials/posts/simple.njk" %}
+
+<p>If you want to keep in touch with me outside of this site, I'm on the fediverse as <a href="https://social.lol/@la">@la@social.lol</a>
+or email me at <a href="mailto:hello@laker.tech">hello@laker.tech</a>!</p>

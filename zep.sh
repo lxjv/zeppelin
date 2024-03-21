@@ -2,6 +2,8 @@
 
 source .zepsettings # settings moved to seperate file
 
+$POST_DIR="src/content/blog/posts"
+
 echo "zep v2.0.0"
 
 OPTION=$(gum choose "new" "edit" "stats" "quit") || echo "gum broke or not installed"

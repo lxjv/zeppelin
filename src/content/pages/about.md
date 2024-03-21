@@ -9,8 +9,9 @@ I came out as non-binary in 2018, and later revised that to trans woman in 2022.
 
 I'm also Autistic. I'll probably write about that... eventually. (oh yeah, I've got ADHD too. that's why i have 50 drafted posts)
 
-### About laker.tech
+I listen to music essentially every waking second of the day
 
+### About laker.tech
 laker.tech is made with [Eleventy](https://11ty.dev), and hosted using [Caddy](https://caddyserver.com) on my VPS, [Eclipse](https://eclipse.laker.tech)
 
 Everything was written by hand, using Neovim on either a MacBook Air, or my desktop (see [/uses](/uses)).

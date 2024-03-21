@@ -1,13 +1,12 @@
 ---
-title: "Laker, Now"
+title: Laker, Now
 subtitle: "Here's what Laker's doing now! (if she remembers to update it)"
-date: 2024-02-05
+date: 2024-03-21
 ---
-
 <script defer src="https://status.lol/laker.js?time&link&fluent"></script>
 
 ### 💜 Overview
-- Current hyperfixations: The new version of this site. (coming soon™)
+- Current hyperfixations:
 
 ### 🎧 Music
 [last.fm profile](https://last.fm/user/lxjv) <script src="https://recentfm.rknight.me/now.js?u=lxjv"></script>

@@ -6,6 +6,8 @@ permalink: /blog/index.html
 layout: page
 ---
 
-You can look at my [blogroll](/blog/roll) if you'd like.
+Here are all of my blog posts, with a bit more information than on the home page.
 
-{% include "partials/posts/simple.njk" %}
+You can look at my [blogroll](/blog/roll) for other blogs (and podcasts) if you'd like.
+
+{% include "partials/posts/full.njk" %}
