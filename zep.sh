@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-source .zepsettings # settings moved to seperate file
-
-$POST_DIR="src/content/blog/posts"
+POST_DIR="src/content/blog/posts"
 
 echo "zep v2.0.0"
 
@@ -18,7 +16,7 @@ if [[ $OPTION == "new" ]]; then
 
 elif [[ $OPTION == "edit" ]]; then
 	EDIT_THIS=$(gum file $POST_DIR) || echo "gum broke or not installed"
-	$EDITOR $EDIT_THIS
+	$EDITOR "$EDIT_THIS"
 
 elif [[ $OPTION == "stats" ]]; then
 	echo "zeppelin stats"

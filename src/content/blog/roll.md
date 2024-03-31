@@ -23,4 +23,3 @@ permalink: /blog/roll/index.html
 - [Do by Friday](https://dobyfriday.com/)
 - [Deep Dive with Ali Abdaal](https://aliabdaal.com/podcast/)
 - [TechDif Reverse Trivia](https://www.techdif.co.uk/)
-

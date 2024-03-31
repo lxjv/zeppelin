@@ -32,4 +32,3 @@ just install-cli
 - every post from [Robb's #eleventy tag](https://rknight.me/blog/tags/eleventy)
 - https://11tybundle.dev/
 - https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/#structuring-the-input-folder
-

@@ -28,9 +28,16 @@ layout: base
 	</p>
 	</div>
 
+	{% if image.src == null %}
+	<hr>
+	{% endif %}
+
 	<div class="e-content">
-		<img src="/cdn/image/posts/{{page.fileSlug}}/{{image.src}}" alt="{{image.alt}}" class="post-header-img" width=720>
+		{% if image.src != null %}
+		<img src="/cdn/image/posts/{{page.fileSlug}}/{{image.src}}" alt="{{image.alt}}" class="post-header-img">
 		<caption>{{image.alt}}</caption>
+		{% endif %}
+
 		{{content | safe}}
 	</div>
 
