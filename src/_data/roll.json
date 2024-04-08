@@ -38,17 +38,17 @@
           {
               "name": "Hemispheric Views",
               "url": "https://hemisphericviews.com",
-              "feed": "https://hemisphericviews.com/rss"
+              "feed": "https://feeds.fireside.fm/hemisphericviews/rss"
           },
           {
               "name": "Ruminate",
               "url": "https://ruminatepodcast.com/",
-              "feed": "https://ruminatepodcast.com/feed/podcast/"
+              "feed": "https://feeds.libsyn.com/517508/rss"
           },
           {
               "name": "Mindful Moments with David Larbi",
               "url": "https://shows.acast.com/64955d8928cc6d0011c0760f",
-              "feed": "https://feed.podbean.com/mindfulmoments/feed.xml"
+              "feed": "https://feeds.acast.com/public/shows/mindful-moments-with-david-larbi"
           },
           {
               "name": "Cortex",
