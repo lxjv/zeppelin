@@ -1,13 +1,11 @@
 ---
 title: Blog
-subtitle: Welcome to my blog!
+subtitle: Where the sidewalk ends..
 date: 2024-01-09
 permalink: /blog/index.html
 layout: page
 ---
 
-Here are all of my blog posts, with a bit more information than on the home page.
+[blogroll](/roll) - [Subscribe via RSS / JSON](/subscribe)
 
-You can look at my [blogroll](/blog/roll) for other blogs (and podcasts) if you'd like.
-
-{% include "partials/posts/full.njk" %}
+{% include "partials/posts/simple.njk" %}

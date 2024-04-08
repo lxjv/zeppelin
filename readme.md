@@ -19,9 +19,6 @@ just start
 
 # clean-slate build and start server
 just purge
-
-# add zep.sh into your global path
-just install-cli
 ```
 
 ## Inspirations
