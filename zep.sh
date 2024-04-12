@@ -1,28 +1,53 @@
 #!/usr/bin/env bash
 
+SUBCMD=$1
+OPTION=$2
+POST_SLUG=$3
+
 POST_DIR="src/content/blog/posts"
 
-echo "zep v2.0.0"
+echo "Zeppelin CLI v3.0.0"
 
-OPTION=$(gum choose "new" "edit" "stats" "quit") || echo "gum broke or not installed"
+if [ -z "$SUBCMD" ]; then
+    SUBCMD=$(gum choose "post" "deploy" "quit") || echo "gum broke or not installed"
+fi
 
-if [[ $OPTION == "new" ]]; then
-	echo "Creating a new post"
+if [[ $SUBCMD == "post" ]]; then
+    if [ -z "$OPTION" ]; then
+        OPTION=$(gum choose "new" "edit" "stats" "quit") || echo "gum broke or not installed"
+    fi
 
-	POST_SLUG=$(gum input --placeholder "post slug") || echo "gum broke or not installed"
+    if [[ $OPTION == "new" ]]; then
+	    echo "Creating a new post"
 
-	cp ./src/cdn/template/post.md "$POST_DIR"/drafts/"$POST_SLUG".md
-	$EDITOR "$POST_DIR"/drafts/"$POST_SLUG".md
+	    POST_SLUG=$(gum input --placeholder "post slug") || echo "gum broke or not installed"
 
-elif [[ $OPTION == "edit" ]]; then
-	EDIT_THIS=$(gum file $POST_DIR) || echo "gum broke or not installed"
-	$EDITOR "$EDIT_THIS"
+    	cp ./src/cdn/template/post.md "$POST_DIR"/"$(date +"%Y")"/"$POST_SLUG".md
 
-elif [[ $OPTION == "stats" ]]; then
-	echo "zeppelin stats"
-	POST_COUNT=$(find "$POST_DIR"/**.md | wc -l | tr -d ' ')
-	echo "There are $POST_COUNT posts!"
+	$EDITOR "$POST_DIR"/"$(date +"%Y")"/"$POST_SLUG".md
+
+    elif [[ $OPTION == "edit" ]]; then
+	    EDIT_THIS=$(gum file $POST_DIR) || echo "gum broke or not installed"
+	    $EDITOR "$EDIT_THIS"
+
+    elif [[ $OPTION == "stats" ]]; then
+	    echo "zeppelin stats"
+
+	    POST_COUNT=$(find "$POST_DIR"/**.md | wc -l | tr -d ' ')
+
+	    echo "There are $POST_COUNT posts!"
+    else
+
+    echo "error: most likely you escaped out of selecting an option"
+    exit 1
+    fi
+
+elif [[ $SUBCMD == "deploy" ]]; then
+   /opt/sites/laker.tech/deploy.sh
+
+elif [[ $SUBCMD == "rollback" ]]; then
+   /opt/sites/laker.tech/deploy.sh rollback
 
 else
-	exit
+    echo quitting!
 fi
