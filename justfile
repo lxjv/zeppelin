@@ -16,3 +16,6 @@ debug:
 
 deploy:
 	ssh eclipse /opt/sites/laker.tech/deploy.sh
+
+rollback:
+  ssh eclipse /opt/sites/laker.tech/rollback.sh

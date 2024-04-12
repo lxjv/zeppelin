@@ -1,8 +1,7 @@
 **/node_modules/**
 
 # the writing basement is CLOSED
-src/content/**/.obsidian
-#src/content/**/drafts
+src/content/.obsidian
 
 # fuck you macOS
 **/.DS_Store
