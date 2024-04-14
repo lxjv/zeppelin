@@ -1,15 +1,20 @@
 ---
 title: Laker, Now
 subtitle: "Here's what Laker's doing now! (if she remembers to update it)"
-date: 2024-03-21
+date: 2024-04-14
 ---
 
 <script href="https://status.lol/laker.js?simple"></script>
 
 ### 💜 General
+- Current Hyperfixations: My Neovim configuration
+
 To quote...uhh... me, currently I'm *"functioning, not flourishing"*.
 
-I'm just getting through the last year of school so I can go off to college and actually start being an adult.
+### 🏫 Education
+Onto my last ever term ("semester" for americans {i think anyway}) at 6th form.
+
+Wow, that's kind of scary.
 
 ### 💽 Music
 - Last concert: Yard Act, 2024-03-17
@@ -22,10 +27,14 @@ Working on 2 blog posts!
 ### 🏳️‍⚧️ Transition
 Fine. Still 6 years left on the NHS waitlist.
 
-### 🖥️ laker.tech
-I finally added favicons. thinking about how to add an OPML outline without it looking like shit.
+### Projects
+Working on a microblogging engine.
+
+#### 🖥️ laker.tech
+Made my [blogroll](/roll) more than just a Markdown list. Now it actually has Features (like not being terrible to maintain)
 
 ### 📺 Other media
-Not much to report.
+I watched Dune Part 2. I'm slightly confused but it was still a good watch.
+
 
 > This is a [/now page](https://sive.rs/nowff), and [you should make one](https://nownownow.com/about), too.
