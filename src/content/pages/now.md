@@ -27,7 +27,7 @@ Working on 2 blog posts!
 ### 🏳️‍⚧️ Transition
 Fine. Still 6 years left on the NHS waitlist.
 
-### Projects
+### 🔧 Projects
 Working on a microblogging engine.
 
 #### 🖥️ laker.tech
