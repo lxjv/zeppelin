@@ -1,0 +1,19 @@
+---
+title: Testing area
+subtitle: testing subtitle
+date: 2005-10-16
+layout: page
+eleventyExcludeFromCollections: true
+tags: ["meta", "posts", "fuck you"]
+footnotes:
+  1: hi
+---
+
+{% if footnotes != null %}
+        <h3>Footnotes</h3>
+        <ol>
+            {% for i in footnotes %}
+                {{ i.content }}
+            {% endfor %}
+        </ol>
+{% endif %}
