@@ -1,0 +1,35 @@
+---
+title: Webrings
+subtitle: circles
+---
+
+<ul>
+   {% for ring in rings %}
+        <li>
+            <a href="{{ring.prev}}"><-- back</a> •
+            <a href="{{ring.link}}">{{ring.name}}</a> •
+            <a href="{{ring.next}}">forwards --></a>
+            {% if ring.random != null %}
+                • <a href="{{ring.random}}">random</a>
+            {% endif %}
+        </li>
+   {% endfor %}
+</ul>
+
+<h3 id="ring">laRing</h3>
+laRing is a webring. You can join it if you'd like. Just <a href="mailto:ring@concorde.blog">ring@concorde.blog</a>.
+
+<p>To join, add these link (in whatever way you'd like) to your website!</p>
+
+<ul>
+    <li>Previous: <code>https://webri.ng/webring/la/previous?via=https%3A%2F%2F{YOUR-DOMAIN-HERE}</code></li>
+    <li>A link to this page: <code>https://laker.tech/rings</code></li>
+    <li>Random (optional): <code>https://webri.ng/webring/la/random?via=https%3A%2F%2F{YOUR-DOMAIN-HERE}</code></li>
+    <li>Next: <code>https://webri.ng/webring/la/next?via=https%3A%2F%2F{YOUR-DOMAIN-HERE}</code></li>
+</ul>
+
+<h4>Current members</h4>
+<ul>
+    <li><a href="https://laker.tech">Laker Turner</a></li>
+</ul>
+

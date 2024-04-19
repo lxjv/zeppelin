@@ -2,6 +2,7 @@
 title: Contact
 subtitle: How to contact me!
 permalink: /contact/index.html
+uplink:
 ---
 
 Please read [my greeting](greeting) before contacting me! Thank you in advance.

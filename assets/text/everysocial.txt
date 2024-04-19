@@ -1,0 +1,41 @@
+# (hopefully) all of my accounts (that i want public)
+# This file
+
+## Personal Social Media Accounts
+- https://social.lol/@la
+- https://fedi.laker.tech/@la
+- https://instagram.com/lakerturner
+- https://pixelfed.scot/@la
+
+(deprecated)
+- https://bsky.app/profile/laker.tech
+- lakerjv.tumblr.com
+- tiktok: @lakerjv
+
+(deleted accounts)
+- https://twitter.com/lakerjv (deleted april 2023)
+- reddit: u/lakerjv (deleted)
+
+## Code forges
+- Github: lxjv
+- Gitlab: lxjv
+- sr.ht: ~la
+- Codeberg: laker
+- git.gay: la
+
+## omg.lol addresses
+- laker
+- la
+- l
+- lxjv
+- concorde
+- helpcord (for a dead project)
+- podcast (for a project i'll talk about soon)
+- sin (for another dead project)
+- tilde (for another unbirthed project)
+- 💜 xn--7r8h
+- α xn--mxa
+- δ xn--pxa
+- ε xn--qxa
+- ♕ xn--z5h
+

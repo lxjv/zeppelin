@@ -3,7 +3,14 @@ layout: base.njk
 ---
 
 <p>
-	<h2>{{title | safe}} <small>Last updated {{page.date | datePretty}}</small></h2>
+	<h2>
+        {{title | safe}}
+        <small>
+            Last updated {{page.date | datePretty}}
+        </small>
+        </h2>
+
+    {% include "back.njk" %}
 	<blockquote>{{subtitle | safe}}</blockquote>
 </p>
 
