@@ -10,6 +10,6 @@ subtitle: All the pages not in the header.
 
 ### cool stuff
 - [/history, all* the previous versions of laker.tech](/history)
-- [/ring, my (currently defunct) webring](/ring)
+- [/rings, webrings i'm a part of](/rings)
 - [/blank](/blank)
 - [/inspiration, other people's stuff](/inspiration)
