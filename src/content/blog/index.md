@@ -8,4 +8,4 @@ layout: page
 
 [blogroll](/roll) - [Subscribe via RSS / JSON](/subscribe)
 
-{% include "partials/posts/simple.njk" %}
+{% include "posts/simple.njk" %}

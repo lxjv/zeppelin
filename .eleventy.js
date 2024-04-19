@@ -10,7 +10,6 @@ module.exports = function (eleventyConfig) {
 		dir: { // directories for stuff woo
 			input: 'src',
 			output: 'public',
-
 			includes: '_includes',
 			layouts: '_layouts'
 		}

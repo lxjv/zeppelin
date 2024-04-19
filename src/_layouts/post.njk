@@ -42,14 +42,5 @@ layout: base
 	</div>
 
 	<hr>
-    {% if footnotes != null %}
-        <h3>Footnotes</h3>
-        <ol>
-            {% for i in footnotes %}
-                {{ i }}
-            {% endfor %}
-        </ol>
-    {% endif %}
 	<p>Want to comment on this post? <a href="mailto:hello+{{page.fileSlug}}@concorde.blog">Email me</a>!</p>
-
 </article>
