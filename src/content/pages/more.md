@@ -12,4 +12,3 @@ subtitle: All the pages not in the header.
 - [/history, all* the previous versions of laker.tech](/history)
 - [/rings, webrings i'm a part of](/rings)
 - [/blank](/blank)
-- [/inspiration, other people's stuff](/inspiration)
