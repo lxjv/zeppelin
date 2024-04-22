@@ -3,9 +3,9 @@ title: Colophon
 subtitle: How this is beamed into your home.
 ---
 
-laker.tech is made with [Eleventy](https://11ty.dev), and hosted using [Caddy](https://caddyserver.com) on my VPS, [Eclipse](https://eclipse.laker.tech)
+laker.tech is made with [Eleventy](https://11ty.dev), and hosted using [Caddy](https://caddyserver.com) on my VPS, [Eclipse](https://eclipse.laker.tech).
 
-Everything was written by hand, using Neovim. I don't use AI. In fact I like writing
+Everything was written by hand, using Neovim. I don't use AI.
 
 The font you see everywhere is **Albert Sans** and code blocks use `IBM Plex Mono`. They are served by Bunny Fonts.
 
