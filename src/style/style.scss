@@ -33,7 +33,7 @@ hr {
 	height: 5px;
 }
 
-small {
+ small {
 	// heh
 	font-size: 69%;
 	font-weight: 420;
@@ -57,4 +57,11 @@ statuslol_emoji {
 
 @media only screen and (max-width: 600px) {
 	body { max-width: 100%; }
+}
+
+.post-comment-ask {
+  padding: 0.5em;
+  border: 2px solid;
+  border-radius: 1em;
+  max-width: fit-content;
 }

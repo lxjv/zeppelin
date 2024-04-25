@@ -17,20 +17,16 @@ layout: base
 		</small>
 
 	</h2>
-	<p>
+        <p>
 		{% for tag in tags %}
-			<span class="p-category"><a class="ntd" href="/blog/t/{{tag}}">#{{tag}}</a></span>
+            <span class="p-category"><a class="ntd" href="/blog/t/{{tag}}">#{{tag}}</a></span>
 		{% endfor %}
-
+        </p>
 		<blockquote class="p-summary" style="margin-bottom: 1em;">
 			{{subtitle | safe}}
 		</blockquote>
-	</p>
-	</div>
 
-	{% if image.src == null %}
-	<hr>
-	{% endif %}
+	</div>
 
 	<div class="e-content">
 		{% if image.src != null %}
@@ -41,6 +37,5 @@ layout: base
 		{{content | safe}}
 	</div>
 
-	<hr>
-	<p>Want to comment on this post? <a href="mailto:hello+{{page.fileSlug}}@concorde.blog">Email me</a>!</p>
+	<p class="post-comment-ask">Want to comment on this post? <a href="mailto:hello+{{page.fileSlug}}@concorde.blog">Email me</a>!</p>
 </article>
