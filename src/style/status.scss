@@ -1,0 +1,13 @@
+.statuslol_container {
+	border-radius: 1em;
+}
+
+.statuslol_emoji {
+	border: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    .statuslol_container {
+	    border: 1px solid #fff8e7;
+    }
+}

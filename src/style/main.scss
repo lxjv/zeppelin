@@ -1,0 +1,15 @@
+@use "base";
+
+#content-wrap {
+    border: #6768AA 1px solid;
+    border-radius: 3em 1em;
+    padding: 2em;
+    margin: 2em;
+}
+
+blockquote {
+	margin-left: 13px;
+	padding-left: 8px;
+	border-left: 4px solid #6768AA;
+	border-spacing: 5px;
+}

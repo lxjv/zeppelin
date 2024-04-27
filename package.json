@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy-img": "^4.0.2",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@campj/eleventy-fa-icons": "^0.0.7"
   }
 }

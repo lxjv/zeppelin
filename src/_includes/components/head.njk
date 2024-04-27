@@ -2,7 +2,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>{{title}} | {{metadata.title}}</title>
+	<title> {% if env.env == dev %}
+        dev
+    {% endif %} {{title}} | {{metadata.title}}</title>
 	<meta name="description" content="{{subtitle}}">
 
 	<!-- favicons -->
@@ -13,10 +15,6 @@
 
 	<!-- go eleventy wooooo -->
 	<meta name="generator" content="{{ eleventy.generator }}">
-
-	<!-- openid -->
-	<link rel="openid.delegate" href="https://laker.tech/">
-	<link rel="openid2.provider" href="https://openid.indieauth.com/openid">
 
 	<!-- opengraph -->
 	<meta property="og:site_name" content="{{metadata.title}}">
@@ -53,12 +51,18 @@
 	<link rel="me" href="mailto:la@laker.gay">
 	<link href="https://github.com/lxjv" rel="me">
 	<link rel="pgpkey" href="/.well-known/pgp">
+    <link rel="openid.delegate" href="https://laker.tech/">
+	<link rel="openid2.provider" href="https://openid.indieauth.com/openid">
 
 	<!-- style -->
 	<meta name="color-scheme" content="dark light">
 	<meta name="theme-color" content="#040404"/>
-	<link rel="stylesheet" href="/style/style.css">
+	<link rel="stylesheet" href="/style/main.css">
+
+    {% if page.filePageStem == "/blog/**" %}
+	    <link rel="stylesheet" href="/style/blog.css">
+    {% endif %}
+
+	<link rel="stylesheet" href="/style/status.css">
 	<script defer src="https://kit.fontawesome.com/a4ad01e3e6.js" crossorigin="anonymous"></script>
-	<link rel="preconnect" href="https://fonts.bunny.net">
-	<link rel="dns-prefetch" href="https://fonts.bunny.net">
 </head>

@@ -19,9 +19,8 @@ The only social media I use particularly often is Mastodon: [@la@social.lol](htt
 - Discord: @lxjv or join my [very dead server](https://laker.tech/discord), if you want.
 - Matrix: [@la:omg.lol](https://mto.vern.cc/#/@la:omg.lol)
 - XMPP: @la@omg.lol
-> I don't have a good XMPP client yet, so I won't see your messages. Feel free to send me recommendations for MacOS or iOS
-- Telegram: @lakert78
 - Signal: @lxj.69
+> I don't have a good XMPP client yet, so I won't see your messages. Feel free to send me recommendations for MacOS or iOS
 
 #### IRC
 - la on the omg.lol server

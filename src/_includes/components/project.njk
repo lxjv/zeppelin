@@ -1,0 +1,12 @@
+<div class="project-item-cnt">
+        <div class="project-image-cnt">
+            <img src="" alt="">
+        </div>
+        <div class="project-info-cnt">
+            <h4 class="project-info-name"><a href="{{ project.url }}">{{ project.data.title }}</a></h4>
+            <p>{{ project.date | datePretty }} - {{ project.data.subtitle }}</p>
+            {% if project.tech != null %}
+
+            {% endfor %}
+        </div>
+</div>
