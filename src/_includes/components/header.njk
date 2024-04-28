@@ -1,17 +1,20 @@
-<header class="center" style="justify-content: space-between; padding: 1em">
 <header class="center" style="justify-content: space-between; padding: 1em 1em 0 1em">
     <h1 id="site-title">
 		<a class="ntd" href="/">{{metadata.title}}</a>
 	</h1>
 
-	<nav class="site-nav">
-		<a href="/about">about</a>
-		<a href="/contact">contact</a>
-		<a href="/now">/now</a>
-
-		<a href="/blog">blog</a>
-        <a href="/projects">projects</a>
-        <a href="/more">more</a>
-        <span style="font-size:1%">•</span>
+    <style>
+    .site-nav-link {
+        text-decoration-style: wavy;
+    }
+    </style>
+	<nav class="site-nav" style="text-decoration: wavy">
+		<a class="site-nav-link" href="/about">about</a>
+		<a class="site-nav-link" href="/contact">contact</a>
+		<a class="site-nav-link" href="/now">/now</a>
+        <br>
+		<a class="site-nav-link" href="/blog">blog</a>
+        <a class="site-nav-link" href="/projects">projects</a>
+        <a class="site-nav-link" href="/more">more</a>
 	</nav>
 </header>
