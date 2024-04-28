@@ -10,6 +10,7 @@ Thanks to the wonderful [Andrew Canion](https://canion.blog/save) for this idea,
 Also thank you in advance if you use any of these links <i class="fa-solid fa-heart"></i>
 
 > By using one of these codes, you are supporting [Laker Turner](https://laker.tech) and the relevant provider.
+
 > Remember, if you don’t pay for a service, then *you are the product*.
 
 ## Services
