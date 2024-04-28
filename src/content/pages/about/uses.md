@@ -1,12 +1,11 @@
 ---
 title: /uses
-subtitle: The stuff that makes me go
 ---
 
 ### Computing
 
 #### Aestrea - Macbook Air 15'
-{ Remind me to add a photo please! }
+![My laptop](/cdn/image/aestrea.jpeg)
 - specs: **16GB RAM, 1TB storage**
 - accessories: Logi MX Master 3S
 

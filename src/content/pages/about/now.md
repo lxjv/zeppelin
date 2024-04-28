@@ -7,7 +7,7 @@ date: 2024-04-14
 <script href="https://status.lol/laker.js?simple"></script>
 
 ### 💜 General
-- Current Hyperfixations: My Neovim configuration
+- Current hyperfixations: My Neovim configuration
 
 To quote...uhh... me, currently I'm *"functioning, not flourishing"*.
 

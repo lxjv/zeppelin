@@ -1,6 +1,4 @@
 {
-  "subtitle": "Default subtitle, cause Laker forgot to write one. Shame.",
   "layout": "page",
-  "permalink": "/{{ page.fileSlug }}/index.html",
-  "ogtype": "profile"
+  "permalink": "/{{ page.fileSlug }}/index.html"
 }
