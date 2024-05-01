@@ -3,9 +3,6 @@ title: Getting Started
 subtitle: Welcome to Weblog Posting Month.
 date: 2024-05-01
 tags: ["wbpm"]
-image:
- src:
- alt:
 ---
 
 <!-- do ya thing: https://www.youtube.com/watch?v=36DCuT1KxM4 -->
@@ -23,5 +20,3 @@ I also have an english exam this month, so I might sit out that day, as I probab
 I'll be tagging my posts on here with [#wbpm](/blog/t/wbpm), and my Mastodon feed with #WeblogPoMo.
 
 Well, I guess I'll see you tomorrow for the second day? :D
-
-#wbpm
