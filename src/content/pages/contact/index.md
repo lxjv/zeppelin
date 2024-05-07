@@ -23,7 +23,7 @@ The only social media I use particularly often is Mastodon: [@la@social.lol](htt
 > I don't have a good XMPP client yet, so I won't see your messages. Feel free to send me recommendations for MacOS or iOS
 
 #### IRC
-- la on the omg.lol server
+- la on the omg.lol server (or concorde when i'm connecting straight from a device)
 - laker on liberachat
 
 ### Encryption keys

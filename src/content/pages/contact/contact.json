@@ -1,4 +1,4 @@
 {
-	"permalink": "/contact/{{page.fileSlug}}",
+	"permalink": "/contact/{{page.fileSlug}}/index.html",
     "uplink": "/contact"
 }

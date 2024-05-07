@@ -17,3 +17,6 @@ public/**
 
 # cli settings file
 .zepsettings
+
+# secrets
+ideas.txt
